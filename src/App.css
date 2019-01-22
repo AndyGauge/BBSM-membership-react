@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 14pt;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.input-group-addon
+{
+    background-color:#FFF;
+    color: #000;
+    font-size: 18pt;
+}
+.input-group .input-group-addon + .form-control
+{
+    border-left:none;
+}
+
+input.btn-padding {
+    margin-left: 3px;
+    margin-right: 3px;
+}
+label.wide-label {
+  width: 100%;
+}
+
+form.validate {
+  min-width: 300px;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+
+  .modal-main {
+    position:fixed;
+    background: white;
+    width: 80%;
+    height: auto;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+  }
+}
+
+section.modal-main {
+    margin-top: 120px;
+    max-width: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+.card-status {
+  color: white;
+  font-size: 150%;
+}
